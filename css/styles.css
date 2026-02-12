@@ -116,3 +116,40 @@ footer cite {
     width: calc((100% / 2) - (2.125rem / 2));
     font-style: normal;
 }
+
+/* Main */
+
+.hero-banner {
+    background-color: var(--secondary-blue);
+
+    /* Bigger padding on the bottom to compensate overlapping paddings for the link */
+    padding: 5.0625rem 0 5.8125rem 0;
+}
+
+.hero-banner .flex-container {
+    align-items: center;
+    column-gap: 2.125rem;
+}
+
+.hero-banner .flex-container>div {
+    row-gap: 1.6875rem;
+    flex: 1 1 25%;
+}
+
+.hero-banner .flex-container>p {
+    flex: 1 2 75%;
+}
+
+.hero-banner h1 {
+    /* Bigger margin on the bottom to compensate overlapping paddings for the link */
+    margin-bottom: 2.4375rem;
+}
+
+.hero-banner a {
+    text-decoration: none;
+    color: var(--off-white);
+    border: 1px solid var(--off-white);
+    padding: .75rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
