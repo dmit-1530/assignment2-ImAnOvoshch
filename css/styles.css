@@ -230,3 +230,28 @@ aside img {
     width: 9.375rem;
     height: auto;
 }
+
+/* Hover and focus */
+
+nav ul li a:hover,
+nav ul li a:focus {
+    text-decoration: underline 2px var(--primary-red);
+}
+
+.sign-in:hover,
+.sign-in:focus {
+    background-color: var(--hover-red);
+}
+
+.hero-banner a:hover,
+.hero-banner a:focus {
+    background-color: var(--off-white);
+    color: var(--secondary-blue);
+}
+
+.upcoming-game-night a:hover,
+.upcoming-game-night a:focus,
+.news-and-events section:nth-of-type(3) a:hover,
+.news-and-events section:nth-of-type(3) a:focus {
+    color: var(--hover-red);
+}
